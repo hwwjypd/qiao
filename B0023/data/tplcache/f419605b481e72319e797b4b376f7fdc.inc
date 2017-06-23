@@ -1,0 +1,1 @@
+<li><a href="[field:imgsrc/]"><img src="[field:imgsrc/]" title="[field:text/]" width="150" height="79" /></a></li>

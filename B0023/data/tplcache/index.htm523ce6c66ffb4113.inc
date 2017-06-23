@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",375,411);
+$z[0][4]['name']="index_seotitle";
+$z[1]=Array("global","",455,485);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",522,549);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",3168,3203);
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("arclist","\r\n                <div class=\"carousel-item\">\r\n                  <div class=\"carousel-img\"><a href=\"javascript:;\" target=\"\"><img src=\"[field:litpic/]\" height=\"500\" alt=\"[field:title/]\"/></a></div>\r\n                </div>\r\n                ",3600,3901);
+$z[4][4]['row']="5";
+$z[4][4]['titlelen']="36";
+$z[4][4]['typeid']="21";
+$z[5]=Array("type","<h2>[field:typename /]</h2>",5938,5999);
+$z[5][4]['typeid']="5";
+$z[6]=Array("arclist","\r\n                    <li>\r\n                      <div class=\"scrollable-item\">\r\n                        <p class=\"scrollable-img\"><a target=\"_blank\" href=\"[field:arcurl/]\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"/></a></p>\r\n                        <h2><a target=\"_blank\" href=\"[field:arcurl/]\">[field:title/]</a></h2>\r\n                      </div>\r\n                    </li>\r\n                    ",6603,7069);
+$z[6][4]['row']="9";
+$z[6][4]['titlelen']="36";
+$z[6][4]['typeid']="5";
+$z[7]=Array("type","<a href=\"[field:typelink /]\">MORE+</a>",7495,7567);
+$z[7][4]['typeid']="5";
+$z[8]=Array("type","<h2>[field:typename /]</h2>",8027,8089);
+$z[8][4]['typeid']="13";
+$z[9]=Array("arclist","\r\n                    <li class='col-3-1 not-animated' data-animate='fadeInUp'>\r\n                      <div class=\"portfolio-img\"><a  href=\"[field:arcurl/]\" title=\"Take It Slow\"><img src=\"[field:litpic/]\" alt=\"Take It Slow\" /><span class=\"opacity-overlay\"></span><i class=\"icon-video\"></i></a></div>\r\n                      <div class=\"portfolio-title\">\r\n                        <h2><a href=\"[field:arcurl/]\"  title=\"Take It Slow\">[field:title/]</a></h2>\r\n                      </div>\r\n                    </li>\r\n                    ",8695,9291);
+$z[9][4]['row']="13";
+$z[9][4]['titlelen']="36";
+$z[9][4]['typeid']="13";
+$z[10]=Array("type","<h2>[field:typename /]</h2>",11500,11562);
+$z[10][4]['typeid']="14";
+$z[11]=Array("arclist","\r\n                    <li>\r\n                      <p><a href=\"[field:arcurl/]\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\" /></a></p>\r\n                      <h2><a href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a></h2>\r\n                    </li>\r\n                    ",12105,12463);
+$z[11][4]['row']="9";
+$z[11][4]['titlelen']="36";
+$z[11][4]['typeid']="14";
+$z[12]=Array("type","<a href=\"[field:typelink /]\">MORE+</a>",12825,12898);
+$z[12][4]['typeid']="14";
+$z[13]=Array("type","<h2>[field:typename /]</h2>",13252,13314);
+$z[13][4]['typeid']="10";
+$z[14]=Array("arclist","\r\n                    <li class='col-2-1 last not-animated' data-animate='fadeInUp'> \r\n                      <div class=\"entry-item\">\r\n                        <div class=\"time\">\r\n                          <p class=\"time-day\">[field:pubdate function='strftime(\"%d\",@me)'/]</p>\r\n                          <p class=\"time-date\">[field:pubdate function='strftime(\"%Y-%m\",@me)'/]</p>\r\n                        </div>\r\n                        <div class=\"entry-title\">\r\n                          <h2><a href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a></h2>\r\n                        </div>\r\n                        <div class=\"entry-summary\">\r\n                          <div class=\"qhd-content\">\r\n                            <div>[field:description function='cn_substr(@me,250)'/]...</div>\r\n                            <div>  </div>\r\n                          </div>\r\n                        </div>\r\n                      </div>\r\n                    </li>\r\n                    ",13858,14902);
+$z[14][4]['row']="9";
+$z[14][4]['titlelen']="50";
+$z[14][4]['typeid']="11,12";
+$z[15]=Array("type","<a href=\"[field:typelink /]\">MORE+</a>",15028,15101);
+$z[15][4]['typeid']="10";
+$z[16]=Array("include","",15201,15236);
+$z[16][4]['filename']="foot.htm";
+
+?>

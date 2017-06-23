@@ -1,0 +1,2 @@
+<h4 class="tab-h4 l"> <a href="[field:typeurl/]" class="db we"> [field:typename/] </a> </h4>
+        <div class="tab-box l"> <a href="[field:arcurl/]" class="db we"><span style="float:right">[[field:pubdate function='strftime("%Y-%m-%d",@me)'/]]</span> [field:title/]</a> </div>
