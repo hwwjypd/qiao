@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html lang="en" class="isie ie8 oldie no-js"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="isie ie9 no-js"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+<!-- Meta Tags -->
+<meta charset="gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Title -->
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<!-- Favicon -->
+<link rel="shortcut icon" href="/dedemao/img/favicon.jpg" type="image/x-icon"/>
+<!-- Google Fonts -->
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='twitter-bootstrap-css' href='/dedemao/css/bootstrap.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='fontello-css' href='/dedemao/css/fontello.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='prettyphoto-css-css' href='/dedemao/js/prettyphoto/css/prettyPhoto.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='animation-css' href='/dedemao/css/animation.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='flexSlider-css' href='/dedemao/css/flexslider.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='perfectscrollbar-css' href='/dedemao/css/perfect-scrollbar-0.4.10.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='jquery-validity-css' href='/dedemao/css/jquery.validity.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='jquery-ui-css' href='/dedemao/css/jquery-ui.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='style-css' href='/dedemao/css/style.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='mobilenav-css' href='/dedemao/css/mobilenav.css' type='text/css' media="screen and (max-width: 838px)"/>
+<link rel="stylesheet" type="text/css" href="/dedemao/css/style.revslider.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/dedemao/js/rs-plugin/css/settings.css" media="screen"/>
+<!-- jQuery -->
+<script src="/dedemao/js/jquery-1.11.1.min.js"></script>
+<!--[if lt IE 9]>
+            <script>
+                document.createElement("header");
+                document.createElement("nav");
+                document.createElement("section");
+                document.createElement("article");
+                document.createElement("aside");
+                document.createElement("footer");
+                document.createElement("hgroup");
+            </script>
+        <![endif]-->
+<!--[if lt IE 9]>
+            <script src="js/html5.js"></script>
+        <![endif]-->
+<!--[if lt IE 7]>
+            <script src="js/icomoon.js"></script>
+        <![endif]-->
+<!--[if lt IE 9]>
+            <link href="css/ie.css" rel="stylesheet">
+        <![endif]-->
+<!--[if lt IE 9]>
+            <script src="js/jquery.placeholder.js"></script>
+            <script src="js/script_ie.js"></script>
+        <![endif]-->
+</head>
+<body class="w1170 headerstyle1">
+<!-- Marine Content Wrapper -->
+<div id="marine-content-wrapper">
+{dede:include filename="head.htm"/}
+	<!-- Marine Content Inner -->
+	<div id="marine-content-inner">
+	<!-- Main Content -->
+	<section id="main-content">
+	<!-- Container -->
+	<div class="container">
+		<div class="page-heading style3 wrapper border-bottom ">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<h1>{dede:field name='typename' /}</h1>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<p class="breadcrumbs">
+						<span typeof="v:Breadcrumb">{dede:field name='position'/}</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<section class="col-lg-12 col-md-12 col-sm-12 small-padding">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="flexslider flexslider-thumbnail-gallery ">
+						<ul class="slides">
+							<li data-tooltip="" data-thumb="/dedemao/img/5-square-thumb.jpg"><img src="/dedemao/img/5-mid.jpg" alt=""/>
+							<div class="project-hover">
+								<a class="search-icon prettyPhoto" href="/dedemao/img/5.jpg"></a>
+							</div>
+							</li>
+							<li data-tooltip="" data-thumb="/dedemao/img/4-square-thumb.jpg"><img src="/dedemao/img/4-mid.jpg" alt=""/>
+							<div class="project-hover">
+								<a class="search-icon prettyPhoto" href="/dedemao/img/4.jpg"></a>
+							</div>
+							</li>
+							<li data-tooltip="" data-thumb="/dedemao/img/14-square-thumb.jpg"><img src="/dedemao/img/14-mid.jpg" alt=""/>
+							<div class="project-hover">
+								<a class="search-icon prettyPhoto" href="/dedemao/img/14.jpg"></a>
+							</div>
+							</li>
+							<li data-tooltip="" data-thumb="/dedemao/img/11-square-thumb.jpg"><img src="/dedemao/img/11-mid.jpg" alt=""/>
+							<div class="project-hover">
+								<a class="search-icon prettyPhoto" href="/dedemao/img/11.jpg"></a>
+							</div>
+							</li>
+							<li data-tooltip="" data-thumb="/dedemao/img/10-square-thumb.jpg"><img src="/dedemao/img/10-mid.jpg" alt=""/>
+							<div class="project-hover">
+								<a class="search-icon prettyPhoto" href="/dedemao/img/10.jpg"></a>
+							</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h3 class="special-text wow animated fadeInDown services-special-h3" data-animation="fadeInDown">关于我们</h3>
+					<p>
+						织梦CMS（www.dedecms.com）专业提供网站模板，网页模板，网站源码，网站素材，网页特效等网页设计素材免费下载。我们致力于打造一个优秀的建站资源共享学习平台。 想找个网络模板收藏夹存放自己喜爱的模板？ 这里就是您的选择。要出售自己的得意模板、插件、教程？欢迎您来这里交易，找到需要她、欣赏她的人。想结交更多热爱模板、插件的朋友？那就快来展示您的作品，寻找志趣相投的朋友吧。
+					</p>
+					<p>
+						织梦CMS学院主要提供网站制作视频教程，网站建设视频教程。系统的培训如何制作网站，从入门到精通的实战课程，项目实战课程让你更轻松入门。 
+					</p>
+					<p>	从零开始系统全面的教你如何建立一个属于自己的网站并实现盈利。课程涉及网站搭建，网站SEO，模板开发等最新建站技术</p>
+                                         织梦CMS已经上路，我们将为此不懈努力，期待得到您的支持！                      <Br>
+				</div>
+			</div>
+			<div class="clearfix clearfix-height40">
+			</div>
+			<div class="full_bg full-width-bg marine-features-bg" data-animation="">
+					<h2 class="special-text marine-header6-h2" data-animation="">我们的服务</h2>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-heart-empty marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">网站模板</h3>
+								<p class="marine-header6-p-color">
+									 织梦CMS专业提供网站模板，网页模板，网站源码，网站素材，网页特效等网页设计素材免费下载。
+								</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-eye-outline marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">视频教程</h3>
+								<p class="marine-header6-p-color">
+									从零开始系统全面的教你如何建立一个属于自己的网站并实现盈利
+								</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-trophy marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">在线培训</h3>
+								<p class="marine-header6-p-color">
+									织梦CMS老师通过QQ群远程教学，全面系统的给大家讲解建站知识。
+								</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix clearfix-height30">
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-gauge marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">dedecms模板</h3>
+								<p class="marine-header6-p-color">
+									织梦CMS提供dede模板,织梦模板,织梦cms,是您寻找dedecms免费模板的最佳选择
+								</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-lightbulb marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">discuz模板</h3>
+								<p class="marine-header6-p-color">
+									织梦CMS提供dz模板，discuz 论坛模板风格主题下载，是您寻找discuz免费模板的最佳选择。
+								</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<ul class="services-list ">
+								<li>
+								<i class="icons icon-back-in-time marine-icon-color"></i>
+								<h3 class="marine-header6-h3-color">wordpress主题</h3>
+								<p class="marine-header6-p-color">
+									织梦CMS提供wordpress企业主题，wordpress cms主题。是您寻找wordpress 主题的最佳选择。
+								</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix clearfix-height40">
+					</div>
+					<div class="clearfix">
+					</div>
+				</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h3>模板开发</h3>
+					<div id='tab-24803' class='tabs animated fadeIn style2'>
+						<div class="tab-header">
+							<ul class=''>
+								<li><a href="#tab1"><i class="icons icon-rocket"></i>dedecms模板</a></li>
+								<li><a href="#tab2"><i class="icons icon-desktop"></i>discuz模板</a></li>
+								<li><a href="#tab3"><i class="icons icon-tablet"></i>wordpress模板</a></li>
+								<li><a href="#tab4"><i class="icons icon-mobile"></i>html5模板</a></li>
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div id="tab1" class="tab">
+								<h4><span class="services-span-color">dedecms模板</span></h4>
+								<p>
+									织梦CMS提供dede模板,织梦模板,织梦cms,织梦小说模板,织梦企业模板,织梦下载站模板,织梦淘宝客模板,是您寻找dedecms免费模板的最佳选择
+								</p>
+								<ul class="list check-style">
+									<li>织梦模板</li>
+									<li>织梦小说模板</li>
+									<li>织梦企业模板</li>
+								</ul>
+							</div>
+							<div id="tab2" class="tab">
+								<h3><span class="services-span-color">discuz模板</span></h3>
+								<p>
+									织梦CMS提供dz模板，discuz 论坛模板，discuz! x2.5，discuz x3.0论坛模板风格主题下载，是您寻找discuz免费模板的最佳选择。
+								</p>
+								<ul class="list check-style">
+									<li>dz模板</li>
+									<li>discuz! x2.5</li>
+									<li>discuz x3.2</li>
+								</ul>
+							</div>
+							<div id="tab3" class="tab">
+                            <h3><span class="services-span-color">wordpress模板</span></h3>
+							<p>
+								织梦CMS提供wordpress企业主题，wordpress中文主题，wordpress cms主题，wordpress淘宝客主题。是您寻找wordpress 主题的最佳选择。
+							</p>
+							<ul class="list check-style">
+								<li>wordpress企业主题</li>
+								<li>wordpress中文主题</li>
+								<li>wordpress淘宝客主题</li>
+							</ul>
+						</div>
+						<div id="tab4" class="tab">
+                        <h3><span class="services-span-color">html5模板</span></h3>
+						<p>
+							 织梦CMS提供html模板，html5模板，css3模板，div+css模板，psd模板，flash模板，网页设计模板，是您寻找各类网页模板的最佳选择。
+						</p>
+						<ul class="list check-style">
+							<li>html模板</li>
+							<li>html5模板</li>
+							<li>div+css模板</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12">
+						<h3>我们的特长</h3>
+						<div class=" style1">
+							<p>
+								 UI设计
+							</p>
+							<div class="progressbar " data-percent="68">
+								<div class="progress-width">
+								</div>
+								<span class="progress-percent"></span>
+							</div>
+						</div>
+						<div class=" style1">
+							<p>
+								 模板开发
+							</p>
+							<div class="progressbar " data-percent="86">
+								<div class="progress-width">
+								</div>
+								<span class="progress-percent"></span>
+							</div>
+						</div>
+						<div class=" style1">
+							<p>
+								 程序编程
+							</p>
+							<div class="progressbar " data-percent="40">
+								<div class="progress-width">
+								</div>
+								<span class="progress-percent"></span>
+							</div>
+						</div>
+						<div class=" style1">
+							<p>
+								网站SEO
+							</p>
+							<div class="progressbar " data-percent="90">
+								<div class="progress-width">
+								</div>
+								<span class="progress-percent"></span>
+							</div>
+						</div>
+						<div class=" style1">
+							<p>
+								手机APP
+							</p>
+							<div class="progressbar " data-percent="70">
+								<div class="progress-width">
+								</div>
+								<span class="progress-percent"></span>
+							</div>
+						</div>
+					</div>
+	</div>
+	<div class="clearfix clearfix-height40">
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<h3>新闻中心</h3>
+			<div class="accordions">
+            {dede:arclist titlelen='100' limit='0,1' typeid='4' infolen='220'}
+				<div class="accordion accordion-active">
+					<div class="accordion-header">
+						<div class="accordion-icon">
+						</div>
+						<h5>[field:title/]</h5>
+					</div>
+					<div class="accordion-content display-block">
+						<p>
+							[field:infos /]...<a href="[field:arcurl /]" target="_blank">[详情]</a>
+						</p>
+						
+					</div>
+				</div>
+			 {/dede:arclist}	
+             {dede:arclist titlelen='100' limit='1,2' typeid='4' infolen='220'}
+				<div class="accordion">
+					<div class="accordion-header">
+						<div class="accordion-icon">
+						</div>
+						<h5>[field:title/]</h5>
+					</div>
+					<div class="accordion-content display-block">
+						<p>
+							[field:infos /]...<a href="[field:arcurl /]" target="_blank">[详情]</a>
+						</p>
+						
+					</div>
+				</div>
+			 {/dede:arclist}	
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<h3 data-animation="">客户评论</h3>
+			<div class="testimonial ">
+				<div class="testimonial-header">
+					<div class="testimonial-image">
+						<img src="/dedemao/img/clients/1.jpg" alt="Jane Blue"/>
+					</div>
+					<div class="testimonial-meta">
+						<span class="testimonial-author">dedecms</span>
+						<span class="testimonial-job">CEO, 织梦CMS科技有限公司</span>
+					</div>
+				</div>
+				<blockquote class="testimonial-quote">织梦CMS专业提供网站模板，网页模板，教程培训，程序插件，网站素材等建站资源。我们致力于打造一个优秀的建站资源共享学习平台！ </blockquote>
+				<div class="testimonial-desc">
+					<p>
+						从零开始系统全面的教你如何建立一个属于自己的网站并实现盈利。课程涉及网站搭建，网站SEO，模板开发等最新建站技术
+					</p>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix clearfix-height40">
+	</div>
+	<div class="full_bg full-width-bg services-full-bg-solid" data-animation="">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<img src="/dedemao/img/clients/client5.jpg" class="alignnone dont_scale wow animated fadeInLeft" data-animation="fadeInLeft" alt="">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<img src="/dedemao/img/clients/client4.jpg" class="alignnone dont_scale wow animated fadeInLeft" data-animation="fadeInLeft" alt="">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<img src="/dedemao/img/clients/client3.jpg" class="alignnone dont_scale wow animated fadeInLeft" data-animation="fadeInLeft" alt="">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6">
+				<img src="/dedemao/img/clients/client2.jpg" class="alignnone dont_scale wow animated fadeInLeft" data-animation="fadeInLeft" alt="">
+			</div>
+		</div>
+		<div class="clearfix">
+		</div>
+	</div>
+	</section>
+</div>
+</div>
+<!-- /Container -->
+</section>
+<!-- /Main Content -->
+</div>
+<!-- /Marine Conten Inner -->
+{dede:include filename="footer.htm"/}
+</div>
+<!-- /Marine Content Wrapper -->
+<!-- JavaScript -->
+<script type='text/javascript' src='/dedemao/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery-ui.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/SmoothScroll.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/prettyphoto/js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='/dedemao/js/modernizr.js'></script>
+<script type='text/javascript' src='/dedemao/js/wow.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.sharre.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.knob.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.mixitup.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='/dedemao/js/perfect-scrollbar-0.4.10.with-mousewheel.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.nouislider.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/jquery.validity.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/tweetie.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/script.js'></script>
+<script type='text/javascript' src='/dedemao/js/rs-plugin/js/jquery.themepunch.enablelog.js'></script>
+<script type='text/javascript' src='/dedemao/js/rs-plugin/js/jquery.themepunch.revolution.js'></script>
+<script type='text/javascript' src='/dedemao/js/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript' src='/dedemao/js/rs-plugin/js/jquery.themepunch.tools.min.js'></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.tp-banner').show().revolution(
+	{
+		dottedOverlay:"none",
+		delay:16000,
+		startwidth:1170,
+		startheight:700,
+		hideThumbs:200,
+		thumbWidth:100,
+		thumbHeight:50,
+		thumbAmount:5,
+		navigationType:"bullet",
+		navigationArrows:"solo",
+		navigationStyle:"preview2",
+		touchenabled:"on",
+		onHoverStop:"on",
+		swipe_velocity: 0.7,
+		swipe_min_touches: 1,
+		swipe_max_touches: 1,
+		drag_block_vertical: false,
+		parallax:"mouse",
+		parallaxBgFreeze:"on",
+		parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+		keyboardNavigation:"off",
+		navigationHAlign:"center",
+		navigationVAlign:"bottom",
+		navigationHOffset:0,
+		navigationVOffset:20,
+		soloArrowLeftHalign:"left",
+		soloArrowLeftValign:"center",
+		soloArrowLeftHOffset:20,
+		soloArrowLeftVOffset:0,
+		soloArrowRightHalign:"right",
+		soloArrowRightValign:"center",
+		soloArrowRightHOffset:20,
+		soloArrowRightVOffset:0,
+		shadow:0,
+		fullWidth:"on",
+		fullScreen:"off",
+		spinner:"spinner4",
+		stopLoop:"off",
+		stopAfterLoops:-1,
+		stopAtSlide:-1,
+		shuffle:"off",
+		autoHeight:"off",						
+		forceFullWidth:"off",						
+		hideThumbsOnMobile:"off",
+		hideNavDelayOnMobile:1500,						
+		hideBulletsOnMobile:"off",
+		hideArrowsOnMobile:"off",
+		hideThumbsUnderResolution:0,
+		hideSliderAtLimit:0,
+		hideCaptionAtLimit:0,
+		hideAllCaptionAtLilmit:0,
+		startWithSlide:0,
+		videoJsPath:"/dedemao/rs-plugin/videojs/",
+		fullScreenOffsetContainer: ""	
+	});
+});	//ready
+</script>
+</body>
+</html>
