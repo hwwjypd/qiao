@@ -1,1 +1,0 @@
-<a href="[field:typelink /]" target='_self' title="在线应聘" class="button orange">在线应聘</a>

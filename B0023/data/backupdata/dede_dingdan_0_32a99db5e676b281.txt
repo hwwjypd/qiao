@@ -1,1 +1,0 @@
-INSERT INTO `dede_dingdan` VALUES('5','0','','100','','','','','','','','');
